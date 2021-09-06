@@ -25,7 +25,13 @@ body {
   body div {
     text-align: center; }
     body div h1 i {
-      font-size: 20rem;
-      margin-bottom: 3rem; }
+      font-size: 14rem;
+      margin-bottom: 3rem;
+      text-shadow: 4px 3px 20px rgba(255, 0, 0, 0.6); }
+      @media screen and (min-width: 768px) {
+        body div h1 i {
+          font-size: 20rem; } }
+    body div h2 {
+      text-shadow: 4px 3px 20px rgba(0, 225, 255, 0.6); }
 
 /*# sourceMappingURL=styles.css.map */
